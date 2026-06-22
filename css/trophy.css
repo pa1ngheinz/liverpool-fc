@@ -67,11 +67,18 @@
   white-space: nowrap;
 }
 
+/* Mobile */
 @media (max-width: 600px) {
   .trophy-container {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 20px;
+  }
+
+  #trophy-title {
+   white-space: nowrap;
+   font-size: 2rem;
+   padding: 10px;
   }
 }
