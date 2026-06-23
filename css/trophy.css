@@ -68,6 +68,13 @@
   white-space: nowrap;
 }
 
+/* Tablets */
+@media (max-width: 900px) {
+  .trophy-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 /* Mobile */
 @media (max-width: 600px) {
   .trophy-container {
