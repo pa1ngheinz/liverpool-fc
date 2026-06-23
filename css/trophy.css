@@ -23,6 +23,11 @@
   column-gap: 20px;
 }
 
+.errMsg {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
 .trophy-card {
   height: 600px;
 }
