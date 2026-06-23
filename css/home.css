@@ -7,14 +7,14 @@
   position: relative;
 }
 
-#home-image {
+.home-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-#logo {
+.logo {
   height: 10rem;
   position: absolute;
   z-index: 2;

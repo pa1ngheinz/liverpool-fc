@@ -11,7 +11,7 @@
   border-radius: 7px;
 }
 
-#trophy-title {
+.trophy-title {
   font-size: 3.5rem;
   color: white;
 }
@@ -39,7 +39,7 @@
   border-radius: 7px;
 }
 
-#trophy-image {
+.trophy-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -48,7 +48,7 @@
   transition: transform 0.3s ease;
 }
 
-#trophy-image:hover {
+.trophy-image:hover {
   transform: scale(1.06);
 }
 
@@ -61,14 +61,14 @@
   padding: 30px 0;
 }
 
-#trophy-number {
+.trophy-number {
   font-size: 2.5rem;
   color: var(--gold);
   font-weight: bold;
   margin: 10px 0;
 }
 
-#trophy-name {
+.trophy-name {
   font-size: 1.6rem;
   white-space: nowrap;
 }
@@ -103,7 +103,7 @@
     column-gap: 20px;
   }
 
-  #trophy-title {
+  .trophy-title {
     white-space: nowrap;
     font-size: 3rem;
     padding: 10px;
