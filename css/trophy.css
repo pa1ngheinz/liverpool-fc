@@ -19,7 +19,7 @@
 .trophy-container {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 20px;
 }
 
@@ -68,8 +68,22 @@
   white-space: nowrap;
 }
 
+/* Desktop */
+@media (max-width: 1000px) {
+  .trophy-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* Small laptops */
+@media (max-width: 1000px) {
+  .trophy-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 /* Tablets */
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .trophy-container {
     grid-template-columns: 1fr 1fr;
   }
