@@ -34,5 +34,17 @@
     "name": "EFL Cup",
     "src": "./images/trophy-6.JPG",
     "trophy": "10"
+  },
+  {
+    "id": 7,
+    "name": "Community Shield",
+    "src": "./images/trophy-7.JPG",
+    "trophy": "16"
+  },
+  {
+    "id": 8,
+    "name": "FIFA Club World Cup",
+    "src": "./images/trophy-8.JPG",
+    "trophy": "1"
   }
 ]
