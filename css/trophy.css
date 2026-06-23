@@ -30,6 +30,8 @@
 .trophy-thumbnail {
   width: 100%;
   height: 70%;
+  overflow: hidden;
+  border-radius: 7px;
 }
 
 #trophy-image {
@@ -37,13 +39,12 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 7px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 #trophy-image:hover {
-  transform: scale(1.02);
+  transform: scale(1.06);
 }
 
 .trophy-info {
@@ -77,8 +78,8 @@
   }
 
   #trophy-title {
-   white-space: nowrap;
-   font-size: 2rem;
-   padding: 10px;
+    white-space: nowrap;
+    font-size: 3rem;
+    padding: 10px;
   }
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Champion League",
+    "src": "./images/trophy-1.JPG",
+    "trophy": "6"
+  },
+  {
+    "id": 2,
+    "name": "Premier League",
+    "src": "./images/trophy-2.JPG",
+    "trophy": "20"
+  },
+  {
+    "id": 3,
+    "name": "Europa League",
+    "src": "./images/trophy-3.JPG",
+    "trophy": "3"
+  },
+  {
+    "id": 4,
+    "name": "UEFA Super Cup",
+    "src": "./images/trophy-4.JPG",
+    "trophy": "4"
+  },
+  {
+    "id": 5,
+    "name": "FA Cup",
+    "src": "./images/trophy-5.JPG",
+    "trophy": "8"
+  },
+  {
+    "id": 6,
+    "name": "EFL Cup",
+    "src": "./images/trophy-6.JPG",
+    "trophy": "10"
+  }
+]
