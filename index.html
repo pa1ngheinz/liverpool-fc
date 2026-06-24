@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/trophy.css" />
+    <link rel="stylesheet" href="css/stadium.css" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Home -->
@@ -19,7 +28,7 @@
 
     <!-- About -->
     <section class="about-page">
-      <div class="about-info">
+      <div class="about-info fade-in">
         <h3 class="about-title">About Club</h3>
 
         <p class="about-context">
@@ -31,7 +40,7 @@
         </p>
       </div>
 
-      <div class="about-thumbnail">
+      <div class="about-thumbnail fade-in">
         <img class="about-image" src="images/about.jpg" alt="about-img" />
       </div>
     </section>
@@ -39,13 +48,58 @@
     <!-- Trophy Room-->
     <section class="trophy-page">
       <div class="trophy-title fade-in">
-        <h3 class="trophy-title">Trophy Room</h3>
+        <h3 class="title-name">Trophy Room</h3>
       </div>
 
       <div class="trophy-container"></div>
     </section>
 
+    <!-- Stadium -->
+    <section class="stadium-page">
+      <div class="stadium-title fade-in">
+        <h3 class="title-name">Stadium</h3>
+      </div>
+
+      <div class="stadium-container">
+        <div class="stadium-card fade-in">
+          <div class="thumbnail">
+            <img id="mainImage"
+              class="stadium-image"
+              src="images/anfield-outside.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="thumbnail-info fade-in">
+            <h4 class="thumbnail-title">About Stadium</h4>
+            <p class="thumbnail-description">
+              <span class="anfield">Anfield Stadium</span> is the historic home
+              of Liverpool FC, located in Liverpool, England. Built in 1884, it
+              has become one of the most famous football stadiums in the world,
+              known for its deep history and passionate atmosphere with a
+              capacity of over 60,000 people.
+            </p>
+          </div>
+
+          <div class="stadium-stats">
+            <p><i class="fa-solid fa-people-group"></i> - 60000</p>
+            <p><i class="fa-solid fa-location-dot"></i> - Liverpool, England</p>
+          </div>
+        </div>
+
+        <div class="stadium-info fade-in">
+          <button id="aboveBtn" class="stadium-button">Above View</button>
+          <div class="line"><hr /></div>
+          <button id="outsideBtn" class="stadium-button">Outside View</button>
+          <div class="line"><hr /></div>
+          <button id="insideBtn" class="stadium-button">Inside View</button>
+          <div class="line"><hr /></div>
+        </div>
+      </div>
+    </section>
+
     <!-- JavaScript -->
     <script src="js/trophy.js"></script>
+    <script src="js/stadium.js"></script>
   </body>
 </html>

@@ -11,7 +11,7 @@
   border-radius: 7px;
 }
 
-.trophy-title {
+.trophy-title .title-name {
   font-size: 3.5rem;
   color: white;
 }
@@ -37,8 +37,8 @@
   opacity: 0;
   transform: translateY(30px);
   transition:
-    opacity 0.5s ease,
-    transform 0.5s ease;
+    opacity 0.8s ease,
+    transform 0.8s ease;
 }
 
 .fade-in.show {
@@ -117,7 +117,7 @@
     column-gap: 20px;
   }
 
-  .trophy-title {
+  .trophy-title .title-name {
     white-space: nowrap;
     font-size: 3rem;
     padding: 10px;
