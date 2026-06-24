@@ -63,9 +63,10 @@
       <div class="stadium-container">
         <div class="stadium-card fade-in">
           <div class="thumbnail">
-            <img id="mainImage"
+            <img
+              id="mainImage"
               class="stadium-image"
-              src="images/anfield-outside.jpg"
+              src="images/anfield-above.jpg"
               alt=""
             />
           </div>
@@ -88,11 +89,21 @@
         </div>
 
         <div class="stadium-info fade-in">
-          <button id="aboveBtn" class="stadium-button">Above View</button>
+          <!-- stored image with html custom data attribute -->
+          <button data-image="images/anfield-above.jpg" class="stadium-button">
+            Above View
+          </button>
           <div class="line"><hr /></div>
-          <button id="outsideBtn" class="stadium-button">Outside View</button>
+          <button
+            data-image="images/anfield-outside.jpg"
+            class="stadium-button"
+          >
+            Outside View
+          </button>
           <div class="line"><hr /></div>
-          <button id="insideBtn" class="stadium-button">Inside View</button>
+          <button data-image="images/anfield-inside.jpg" class="stadium-button">
+            Inside View
+          </button>
           <div class="line"><hr /></div>
         </div>
       </div>
