@@ -4,6 +4,19 @@
   margin: 15px 30px;
 }
 
+.trophy-title-mobile {
+  padding: 15px 0;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.trophy-title-mobile .mobile-title-name {
+  color: var(--red);
+  font-size: 1.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
 .trophy-title {
   background-color: var(--red);
   text-align: center;
@@ -110,7 +123,18 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+  .trophy-title-mobile {
+    display: block !important;
+  }
+
+  .trophy-title {
+    display: none;
+  }
+
   .trophy-container {
+    display: none;
+  }
+  /* .trophy-container {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr;
@@ -119,7 +143,7 @@
 
   .trophy-title .title-name {
     white-space: nowrap;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 10px;
-  }
+  } */
 }

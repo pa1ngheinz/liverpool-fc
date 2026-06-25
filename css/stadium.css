@@ -54,6 +54,7 @@ h2 {
   margin-top: 20px;
   text-indent: 20px;
   line-height: 25px;
+  overflow-wrap: break-word;
 }
 
 .anfield {
@@ -111,5 +112,18 @@ h2 {
   .stadium-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .thumbnail-description {
+    overflow-wrap: break-word;
+    text-indent: 0;
+  }
+
+  .stadium-title {
+    padding: 15px 0;
+  }
+
+  .stadium-title .title-name {
+    font-size: 1rem;
   }
 }
