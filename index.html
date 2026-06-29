@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/trophy.css" />
     <link rel="stylesheet" href="css/stadium.css" />
     <link rel="stylesheet" href="css/history.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <!-- Fontawesome -->
     <link
       rel="stylesheet"
@@ -22,13 +23,13 @@
   </head>
   <body>
     <!-- Home -->
-    <div class="home-page">
+    <div id="home" class="home-page">
       <img class="home-image" src="images/home.PNG" alt="home-image" />
       <img class="logo" src="images/logo.png" alt="logo" />
     </div>
 
     <!-- About -->
-    <section class="about-page">
+    <section id="about" class="about-page">
       <div class="about-info fade-in">
         <h3 class="about-title">About Club</h3>
 
@@ -47,7 +48,7 @@
     </section>
 
     <!-- Trophy Room-->
-    <section class="trophy-page">
+    <section id="trophy" class="trophy-page">
       <div class="trophy-title-mobile fade-in" style="display: none">
         <a class="mobile-title-name" href="trophy-mobile.html"
           >Watch All Trophies →</a
@@ -62,7 +63,7 @@
     </section>
 
     <!-- Stadium -->
-    <section class="stadium-page">
+    <section id="stadium" class="stadium-page">
       <div class="stadium-title fade-in">
         <h3 class="title-name">Stadium</h3>
       </div>
@@ -117,7 +118,7 @@
     </section>
 
     <!-- History -->
-    <section class="history-page">
+    <section id="history" class="history-page">
       <div class="history-title fade-in">
         <h3 class="title-name">History</h3>
       </div>
@@ -151,10 +152,42 @@
             alt="The Beatles"
           />
 
-          <p class="history-statue">- The Beatles Statue in Liverpool, England.</p>
+          <p class="history-statue">
+            - The Beatles Statue in Liverpool, England.
+          </p>
         </div>
       </div>
     </section>
+
+    <footer>
+      <div class="footer-info">
+        <h4>You'll Never Walk Alone.</h4>
+        <p>- Created by Paing Hein Kyaw</p>
+        <p>- &copy; copyright 2026</p>
+      </div>
+
+      <div class="footer-tech">
+        <h4>Tech Stack</h4>
+
+        <div class="icons">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-git-alt"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#trophy">Trophy</a></li>
+          <li><a href="#stadium">Stadium</a></li>
+          <li><a href="#history">History</a></li>
+        </ul>
+      </div>
+    </footer>
 
     <!-- JavaScript -->
     <script src="js/trophy.js"></script>
